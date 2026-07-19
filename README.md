@@ -322,11 +322,3 @@ Backend Terminal
 ```
 
 ---
-
-
-
-
-
-# ⭐ If you like this project
-
-Give this repository a ⭐ on GitHub.
