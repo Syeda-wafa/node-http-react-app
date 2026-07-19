@@ -1,0 +1,81 @@
+.read-page {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.read-card {
+  width: 700px;
+  max-width: 100%;
+
+  background: #1e293b;
+
+  border: 1px solid #334155;
+
+  border-radius: 18px;
+
+  padding: 40px;
+}
+
+.read-card h1 {
+  color: #38bdf8;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.read-card p {
+  color: #cbd5e1;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.read-card button {
+  width: 100%;
+
+  margin-top: 30px;
+
+  padding: 15px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #38bdf8;
+
+  color: white;
+
+  font-size: 18px;
+
+  transition: .3s;
+}
+
+.read-card button:hover {
+  background: #0ea5e9;
+}
+
+.output {
+  margin-top: 30px;
+
+  background: #0f172a;
+
+  border: 1px solid #334155;
+
+  border-radius: 10px;
+
+  padding: 25px;
+
+  min-height: 120px;
+}
+
+.output p {
+  color: #22c55e;
+  text-align: left;
+}
+
+.output span {
+  color: #94a3b8;
+}

@@ -1,0 +1,95 @@
+.save-page {
+  min-height: calc(100vh - 80px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+}
+
+.save-card {
+  width: 700px;
+  max-width: 100%;
+
+  background: #1e293b;
+  border: 1px solid #334155;
+
+  border-radius: 18px;
+
+  padding: 40px;
+}
+
+.save-card h1 {
+  color: #38bdf8;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.save-card p {
+  color: #cbd5e1;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.save-card textarea {
+  width: 100%;
+  height: 180px;
+
+  margin-top: 25px;
+
+  padding: 15px;
+
+  border: 1px solid #475569;
+  border-radius: 10px;
+
+  background: #0f172a;
+  color: white;
+
+  resize: none;
+  outline: none;
+
+  font-size: 16px;
+}
+
+.save-card textarea:focus {
+  border-color: #38bdf8;
+}
+
+.save-card button {
+  width: 100%;
+
+  margin-top: 25px;
+
+  padding: 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #38bdf8;
+  color: white;
+
+  font-size: 18px;
+
+  transition: .3s;
+}
+
+.save-card button:hover {
+  background: #0ea5e9;
+}
+
+.success {
+  margin-top: 20px;
+
+  background: rgba(34, 197, 94, .15);
+
+  color: #22c55e;
+
+  border: 1px solid #22c55e;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  text-align: center;
+}
